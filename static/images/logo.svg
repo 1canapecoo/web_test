@@ -1,11 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
-  <rect width="400" height="200" fill="white"/>
-  <polygon points="150,120 180,60 210,120" fill="#1a365d"/>
-  <polygon points="210,120 240,70 280,120" fill="#1a365d"/>
-  <path d="M180,60 Q250,20 280,60" fill="none" stroke="#1a365d" stroke-width="6" stroke-linecap="round"/>
-  <path d="M185,58 Q245,25 275,58" fill="none" stroke="#f97316" stroke-width="4" stroke-linecap="round"/>
-  <polygon points="195,80 200,80 200,120 220,120 220,70 195,70" fill="#f97316"/>
-  <polygon points="195,70 195,80 215,80 215,70" fill="#1a365d"/>
-  <text x="50" y="160" font-family="'Arial Black','Helvetica Neue',sans-serif" font-size="32" font-weight="bold" fill="#1a365d">PEAK SUNRISE</text>
-  <text x="105" y="185" font-family="'Arial Black','Helvetica Neue',sans-serif" font-size="18" font-weight="bold" fill="#1a365d">CONSULTANTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <!-- Background -->
+  <rect width="600" height="350" fill="white"/>
+  
+  <!-- Arc (sunrise) -->
+  <path d="M200,100 Q350,20 500,100" fill="none" stroke="#1a365d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M210,98 Q345,30 490,98" fill="none" stroke="url(#arcGradient)" stroke-width="6" stroke-linecap="round"/>
+  <defs>
+    <linearGradient id="arcGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#1a365d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Mountain peaks -->
+  <polygon points="220,220 260,140 300,220" fill="#1a365d"/>
+  <polygon points="300,220 360,120 440,220" fill="#1a365d"/>
+  
+  <!-- Letter P (orange part) -->
+  <polygon points="300,130 320,130 320,220 380,220 380,90 300,90" fill="#f97316"/>
+  <!-- Letter P (dark blue part) -->
+  <polygon points="300,90 300,130 370,130 370,90" fill="#1a365d"/>
+  
+  <!-- PEAK SUNRISE text -->
+  <text x="60" y="290" font-family="'Helvetica Neue', Arial, sans-serif" font-size="48" font-weight="700" fill="#1a365d" letter-spacing="2">PEAK SUNRISE</text>
+  
+  <!-- CONSULTANTS text -->
+  <text x="150" y="335" font-family="'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="400" fill="#1a365d" letter-spacing="3">CONSULTANTS</text>
 </svg>
